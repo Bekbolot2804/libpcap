@@ -65,3 +65,7 @@ CMakeFiles/
 *.vcxproj.user
 Debug/
 Release/
+# llvm/clang coverage & fuzz artifacts
+*.profraw
+*.profdata
+fuzz_pcap_compile
