@@ -69,3 +69,7 @@ Release/
 *.profraw
 *.profdata
 fuzz_pcap_compile
+# llvm/clang coverage & fuzz artifacts
+*.profraw
+*.profdata
+fuzz_pcap_compile
