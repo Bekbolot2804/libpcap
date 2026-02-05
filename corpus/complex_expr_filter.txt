@@ -1,0 +1,1 @@
+(ip and (tcp[13] & 0x02 != 0 or tcp[13] & 0x10 != 0)) and not (host 192.168.0.1 or host 10.0.0.1) and (len > 100)
