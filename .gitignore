@@ -69,4 +69,3 @@ Release/
 *.profraw
 *.profdata
 fuzz_pcap_compile
-artifacts/
