@@ -484,6 +484,7 @@ if(WIN32)
 endif(WIN32)
 
 option(ENABLE_PROFILING "Enable code profiling" OFF)
+option(ENABLE_LIBFUZZER "Build fuzz targets with LibFuzzer (requires -fsanitize=address in EXTRA_CFLAGS)" OFF)
 
 # To pacify those who hate the protochain instruction
 option(ENABLE_PROTOCHAIN "Enable protochain instruction" ON)
